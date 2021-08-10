@@ -1,0 +1,16 @@
+{
+  "name": "mongo-node-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn rollup main.js --file bundle.js --format umd --name 'myBundle'; node bundle.js"
+  },
+  "dependencies": {
+    "mongodb": "^4.1.0",
+    "restify": "^8.5.1"
+  },
+  "devDependencies": {
+    "rollup": "^2.56.2"
+  }
+}
